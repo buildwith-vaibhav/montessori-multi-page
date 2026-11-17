@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@theme {
+  --color-ivory: #faf6ec;
+  --color-forest: #2f4a3b;
+  --color-sage: #a7bba2;
+  --color-terra: #b85c38;
+  --color-ink: #2a2a28;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Nunito Sans", system-ui, sans-serif;
+}
+body { margin: 0; font-family: var(--font-sans); background: var(--color-ivory); color: var(--color-ink); }
+.font-display { font-family: var(--font-display); }
